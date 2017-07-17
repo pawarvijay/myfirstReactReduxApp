@@ -1,0 +1,487 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300');
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+p, h1, h2, h6 {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+p {
+    color: #313335;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+h1 {
+    color: #202859;
+    font-size: 26px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    color: #313335;
+    font-size: 22px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Nunito', sans-serif !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    color: #313335;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif !important;
+    margin: 0px;
+    padding: 0px;
+    line-height: 16px;
+}
+
+section {
+    padding: 30px 0px;
+}
+
+.customClear {
+    clear: both;
+}
+
+.customClear10 {
+    clear: both;
+    height: 10px;
+}
+
+.customClear20 {
+    clear: both;
+    height: 20px;
+}
+
+.customClear30 {
+    clear: both;
+    height: 30px;
+}
+
+.customClear40 {
+    clear: both;
+    height: 40px;
+}
+
+.customClear50 {
+    clear: both;
+    height: 50px;
+}
+
+.customClear100 {
+    clear: both;
+    height: 100px;
+}
+
+.col-centered {
+    float: none !important;
+    margin: 0 auto !important;
+}
+
+.headerTop {
+    width: 100%;
+    float: left;
+    background-color: #52a8dd;
+    padding: 8px 0px;
+}
+
+.headerTopLogo {
+    width: 225px;
+    float: left;
+}
+
+.headerTopLogo img {
+    width: 100%;
+}
+
+.headerTopMenu {
+    width: 65%;
+    float: right;
+}
+
+.headerTopMenu ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.headerTopMenu ul li {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    list-style: none;
+}
+
+.headerTopMenu ul li a {
+    padding: 18px 15px !important;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -o-transition: all 0.35s;
+    transition: all .35s;
+    color: #fff !important;
+    font-size: 16px;
+    float: left;
+    text-decoration: none;
+}
+
+.headerTopMenu ul li a:hover {
+    color: #202859 !important;
+}
+
+.Pagewraper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerTopRight {
+    width: 200px;
+    float: right;
+    margin-top: 18px;
+}
+
+.headerTopRight p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.headerTopRight_profileIcon {
+    width: 24px;
+    float: left;
+    margin-right: 10px;
+}
+
+.headerTopRight_HelpIcon {
+    width: 24px;
+    float: left;
+    margin-right: 15px;
+}
+
+.FormProccessTop {
+    position: relative;
+    padding: 20px 0px 0px 0px;
+}
+
+.FormProccessTopMain {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.FormProccessTopMain p {
+    text-align: center;
+}
+
+.FormProccessTopLeft {
+    float: left;
+    margin: 0 1%;
+    width: 14.65%;
+}
+
+.FormProccessTopLeftIcon {
+    height: 10px !important;
+    padding: 8px !important;
+    width: 10px !important;
+    border-radius: 50% !important;
+    background-color: #52a8dd;
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0px 0px 0px 30px #fff;
+}
+
+.FormProccessTopLeftIconInner {
+    width: 10px !important;;
+    height: 10px !important;;
+    border-radius: 50% !important;;
+    background-color: #202859;
+}
+
+.FormProccessCompleted p {
+    color: #202859;
+    font-size: 12px;
+}
+
+.FormProccessProssed p {
+    color: #202859;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.FormProccessPending p {
+    color: #caccce;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.FormProccessProssed .FormProccessTopLeftIconInner {
+    display: none;
+}
+
+.FormProccessPending .FormProccessTopLeftIconInner {
+    display: none;
+}
+
+.FormProccessPending .FormProccessTopLeftIcon {
+    background-color: #caccce;
+}
+
+.FormProccessTopMainLine {
+    width: 54%;
+    position: absolute;
+    z-index: -1;
+    top: 39%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.FormProccessTopMainLine1 {
+    width: 40%;
+    float: left;
+    background-color: #202859;
+    height: 1px;
+}
+
+.FormProccessTopMainLine2 {
+    width: 60%;
+    float: left;
+    background-color: #caccce;
+    height: 1px;
+}
+
+
+.FormProccessTabs .ui.secondary.pointing.menu a:hover {
+    color: #202859;
+}
+
+.FormProccessContentTextBox {
+    width: 100% !important;
+    padding: 5px 0px 2px 0px !important;
+    float: left !important;
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    margin: 15px 0px !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px !important;
+    color: #666 !important;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: none;
+}
+
+.FormProccessContentDropDown select {
+    background: transparent;
+    width: 110%;
+    height: auto;
+    -webkit-appearance: none;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px;
+    color: #666;
+    border: none;
+    padding: 0px;
+}
+
+.FormProccessContentDropDown {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: url("../images/dropdownarrow.png") no-repeat right #fff;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0px;
+    margin: 12px 0px;
+}
+
+.FormProccessContentDropDown option {
+    width: 100%;
+    padding: 5px;
+    float: left;
+    border: none;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px;
+    color: #666;
+}
+
+.FormProccessRadioBtnMain {
+    width: 100%;
+    float: left;
+}
+
+.FormProccessRadioBtnMain p {
+    color: #b2adb0;
+    float: left;
+    margin-right: 30px;
+    width: 90px;
+}
+
+.FormProccessRadioBtnMain h4 {
+    width: 150px;
+    float: left;
+}
+
+.FormProccessRadioBtnMain input {
+    float: left;
+    margin: 2px 10px;
+}
+
+.longSubmitButton {
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0px;
+    float: left;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 20px;
+    background: rgb(82, 168, 221); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(82, 168, 221, 1) 0%, rgba(82, 168, 221, 1) 50%, rgba(32, 40, 89, 1) 50%, rgba(32, 40, 89, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(82, 168, 221, 1) 0%, rgba(82, 168, 221, 1) 50%, rgba(32, 40, 89, 1) 50%, rgba(32, 40, 89, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(82, 168, 221, 1) 0%, rgba(82, 168, 221, 1) 50%, rgba(32, 40, 89, 1) 50%, rgba(32, 40, 89, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52a8dd', endColorstr='#202859', GradientType=1); /* IE6-9 */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.longSubmitButton:hover {
+    cursor: pointer;
+}
+
+.Footer {
+    width: 100%;
+    float: left;
+    background-color: #e4e5e6;
+    padding: 25px 0px;
+}
+
+.Footer p {
+    float: left;
+    margin-top: 3px;
+}
+
+.FooterMenu {
+    width: auto;
+    float: right;
+}
+
+.FooterMenu ul {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.FooterMenu ul li {
+    float: left;
+    margin: 0px;
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.FooterMenu ul li + li {
+    border-left: 1px solid #666;
+}
+
+.FooterMenu ul li a {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    -webkit-transition: all .50s;
+    -moz-transition: all .50s;
+    -o-transition: all 0.50s;
+    transition: all .50s;
+}
+
+.FooterMenu ul li a:hover {
+    color: #52a8dd;
+    -webkit-transition: all .50s;
+    -moz-transition: all .50s;
+    -o-transition: all 0.50s;
+    transition: all .50s;
+}
+.ContentBox {
+    width: 96%;
+    float: left;
+    box-shadow: 0px 0px 10px #acacac;
+    padding: 2%;
+    border-radius: 5px;
+    position: relative;
+    margin: 50px 0px;
+}
+
+.ContentBox:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 50%; /* or 100px */
+    border-top: 8px solid #52a8dd;
+    border-radius: 5px 0px;
+}
+
+.backBtn {
+    width: 24px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.FormProccessTabs {
+    float: left;
+    padding: 15px 10%;
+    width: 100%;
+}
+
+.FormProccessTabs .ui.segment{
+    box-shadow : none;
+    -webkit-box-shadow : none;
+    border : none;
+}
+
+.FormProccessTabs .ui.pointing.secondary.menu a{
+    color: #86888a;
+    margin: 0px;
+    padding: 10px 25px;
+    line-height: 24px;
+    font-size: 20px;
+    float: left;
+    text-decoration: none;
+}
+
+.FormProccessTabs .ui.pointing.secondary.menu a:hover {
+    color: #202859;
+}
+
+
+.FormProccessTabs .ui.secondary.pointing.menu{
+    border-bottom : 1px solid rgba(34,36,38,.15);
+}
+
+.FormProccessTop div {
+    box-sizing: initial !important;
+    -webkit-box-sizing: initial !important;
+}
+
+
+
+
