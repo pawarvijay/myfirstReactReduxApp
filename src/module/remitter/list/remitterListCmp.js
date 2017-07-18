@@ -4,7 +4,7 @@
 
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {RemitterService} from '../remitterService';
+import RemitterService from '../remitterService';
 
 class remitterListCmp extends React.Component {
 

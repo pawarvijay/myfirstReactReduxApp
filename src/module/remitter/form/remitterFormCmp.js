@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-import {RemitterService} from '../remitterService';
+import RemitterService from '../remitterService';
 
 import RemitterFormCmpHtml from './remitterFormCmpHtml';
 

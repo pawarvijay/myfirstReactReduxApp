@@ -1,10 +1,4 @@
-/**
- * Created by vijaypawar on 12/07/17.
- */
 
-/**
- * Created by vijaypawar on 12/07/17.
- */
 
 import React from 'react';
 import PropTypes from 'prop-types';
